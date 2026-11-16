@@ -67,7 +67,9 @@ jobs:
     name: Déploiement local + health check
     needs: build-and-push
     runs-on: self-hosted
-
+    env:
+      DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+      
     steps:
       - uses: actions/checkout@v4
 
