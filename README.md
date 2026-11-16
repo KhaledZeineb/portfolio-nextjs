@@ -26,7 +26,7 @@ Image : `KhaledZeineb/portfolio-nextjs:<version>`
 
 Depuis Backstage, lancer le template **Publier une nouvelle version du Portfolio**
 (ou pousser sur `main` : le pipeline se déclenche automatiquement).
-
+Déploiement automatisé avec GitHub Actions.
 ## Vérification
 
 ```
