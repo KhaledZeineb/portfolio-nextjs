@@ -1,0 +1,5 @@
+site_name: portfolio-nextjs
+nav:
+  - Accueil: index.md
+plugins:
+  - techdocs-core
